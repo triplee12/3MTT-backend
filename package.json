@@ -1,20 +1,32 @@
 {
-  "name": "simple_server",
+  "name": "3mtt",
   "version": "3.0.0",
-  "description": "",
+  "description": "## NodeJs Intermediate",
   "main": "index.js",
   "scripts": {
     "test": "jest --coverage"
   },
-  "author": "",
+  "author": "Ejie Emmanuel Chukwuebuka",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.20.2",
     "dotenv": "^16.4.5",
-    "nodemon": "^3.0.3"
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
     "jest": "^29.7.0",
-    "supertest": "^6.3.4",
-    "nodemon": "^3.0.3"
-  }
+    "nodemon": "^3.1.0",
+    "supertest": "^6.3.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "3MTT-backend"
+  },
+  "keywords": [
+    "3mtt",
+    "backend",
+    "Nodejs",
+    "ExpressJs"
+  ]
 }
